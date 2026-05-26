@@ -63,7 +63,8 @@ packages:
             confs/cpu-monitoring.yaml,    # recommended
             confs/request-codes.yaml,   # disable if your unit does not support request codes (service menu)
             confs/auto-adaptive.yaml,    # recommended, define before board def
-            confs/esp32s3.yaml,         # confs/esp32.yaml, for regular board
+            #confs/esp32s3.yaml,         # confs/esp32.yaml, for regular board
+            confs/esp32s3-proxy2.yaml
             confs/zone1.yaml,
             confs/server-control-z1.yaml,
             ## enable if you want to use zone 2
