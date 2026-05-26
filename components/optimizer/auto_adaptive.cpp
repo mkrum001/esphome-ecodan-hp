@@ -18,9 +18,9 @@ namespace esphome
             HeatingProfile p;
             if (type_index <= 1) {
                 // UFH
-                p.base_min_delta_t    = 1.5f;
+                p.base_min_delta_t    = 1.0f;
                 p.min_delta_cold_limit = 4.0f;
-                p.max_delta_t         = 6.5f;
+                p.max_delta_t         = 2.5f;
                 p.max_error_range     = 2.0f;
                 p.defrost_memory_ms   = 35 * 60 * 1000UL;
             } else if (type_index <= 3) {
