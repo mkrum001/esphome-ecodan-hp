@@ -139,8 +139,8 @@ number:
     name: ${cooling_smart_start_temp}
     optimistic: true
     restore_value: true
-    initial_value: 19.0
-    min_value: 16.0
+    initial_value: 18.0
+    min_value: 6.0
     max_value: 25.0
     step: 0.5
 
@@ -154,7 +154,7 @@ number:
     min_value: 5.0
     max_value: 25.0
     step: 0.1
-    
+
   - platform: template
     id: minimum_cooling_flow_temp_z2
     name: ${minimum_cooling_flow_temp} z2
